@@ -106,12 +106,12 @@ title:"Returns Dashboard",
 image:"/images/nexatech/Returns Dashboard.png"
 }
            {
-title:"Data_Loaded",
+title:"Azure Data Loaded",
 image:"/images/nexatech/Data_Loaded.png.png"
 }
             {
-title:"A",
-image:"/images/nexatech/Returns Dashboard.png"
+title:"Schema",
+image:"/images/nexatech/powerbi_schema.png"
 }
 ],
     github: "https://github.com/anusshkaydv/NexaTech-Order-to-Cash-Reporting-System",
