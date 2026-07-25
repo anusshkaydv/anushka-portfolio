@@ -58,18 +58,12 @@ const FEATURED_PROJECTS = [
       "An end-to-end Order-to-Cash reporting solution built on Azure — from raw ERP transactions to executive dashboards. Covers data generation, ETL, cloud storage, relational modeling, and business intelligence reporting, modeling how a real enterprise converts operational data into decision-ready insight.",
     tech: ["Python", "SQL", "Azure Blob Storage", "Azure SQL Database", "Power BI", "ETL"],
     highlights: [     
-"Designed and implemented an end-to-end Order-to-Cash (O2C) reporting solution that simulates enterprise ERP
-workflows, covering data generation, ETL, cloud storage, relational modeling, and business intelligence reporting",
-"Generated over 388,000 realistic ERP records using Python and Faker, modeling customers, orders, inventory, ship
-ments, invoices, payments, returns, and discounts with business-driven relationships",
-"Designed a scalable 16-table ERP relational schema in Azure SQL Database using normalized data modeling, primary
-and foreign key constraints, and referential integrity to support enterprise reporting workloads",
-"Build a modular ETL framework for data validation, transformation, logging, and automated quality reporting before
-loading data into the reporting database",
-"Developed 8 interactive Power BI dashboards covering Home, Executive, Sales, Finance, Customer, Inventory, Logistics, and
-Returns analytics, enabling KPI monitoring and operational decision-making",
-"Integrated Azure Blob Storage into the data ingestion workflow, simulating a cloud-based reporting architecture from
-raw operational data to interactive dashboards",
+"Designed and implemented an end-to-end Order-to-Cash (O2C) reporting solution that simulates enterprise ERP workflows, covering data generation, ETL, cloud storage, relational modeling, and business intelligence reporting",
+"Generated over 388,000 realistic ERP records using Python and Faker, modeling customers, orders, inventory, shipments, invoices, payments, returns, and discounts with business-driven relationships",
+"Designed a scalable 16-table ERP relational schema in Azure SQL Database using normalized data modeling, primary and foreign key constraints, and referential integrity to support enterprise reporting workloads",
+"Build a modular ETL framework for data validation, transformation, logging, and automated quality reporting before loading data into the reporting database",
+"Developed 8 interactive Power BI dashboards covering Home, Executive, Sales, Finance, Customer, Inventory, Logistics, and Returns analytics, enabling KPI monitoring and operational decision-making",
+"Integrated Azure Blob Storage into the data ingestion workflow, simulating a cloud-based reporting architecture from raw operational data to interactive dashboards",
     ],
     shots: [{
 title:"Home Dashboard",
@@ -160,14 +154,10 @@ image:"/images/retail/powerbi_style_dashboard.png"
       "An automated financial reporting workflow — a Python script pulls live prices from the Alpha Vantage API, Power Query cleans and loads the data inside Excel, and a single VBA-triggered macro refreshes every Pivot Table, chart, and KPI card in one click.",
     tech: ["Python", "Advanced Excel", "Power Query", "VBA", "Alpha Vantage API"],
     highlights: [
-     "Automated real-time stock market data collection using Python and the Alpha Vantage API, generating structured datasets
-for financial reporting and analysis",
-"Developed an automated reporting pipeline using Power Query and VBA macros, enabling one-click data refresh and dashboard
-updates with minimal manual effort",
-"Built an interactive Microsoft Excel dashboard featuring PivotTables, PivotCharts, slicers, KPI cards, conditional formatting,
-and advanced formulas for dynamic financial reporting",
-"Analyzed stock price movements, trading volume, market trends, and top gainers/losers through interactive visualizations to
-support data-driven investment analysis",
+     "Automated real-time stock market data collection using Python and the Alpha Vantage API, generating structured datasets for financial reporting and analysis",
+"Developed an automated reporting pipeline using Power Query and VBA macros, enabling one-click data refresh and dashboard updates with minimal manual effort",
+"Built an interactive Microsoft Excel dashboard featuring PivotTables, PivotCharts, slicers, KPI cards, conditional formatting, and advanced formulas for dynamic financial reporting",
+"Analyzed stock price movements, trading volume, market trends, and top gainers/losers through interactive visualizations to support data-driven investment analysis",
     ],
     shots: [{
 title:"Dashboard",
@@ -189,12 +179,9 @@ image:"/images/real_time/updated.png"
       "A SQL and Power BI deep-dive into ride-booking behavior — uncovering where cancellations actually come from, how payment methods split, and which vehicle types drive revenue, across a 5-page interactive dashboard.",
     tech: ["SQL", "Power BI", "DAX", "Excel"],
     highlights: [
-      "Analyzed over 20,000 ride-booking records using SQL to evaluate booking trends, ride cancellations, payment methods, vehicle
-performance, and customer behavior",
-"Developed 9 DAX measures and KPI indicators that identified a 38% driver-side cancellation rate while revealing Cash and
-UPI accounted for nearly 96% of completed payments",
-"Designed a 5-page interactive Power BI dashboard featuring drill-through analysis, slicers, and dynamic visualizations to support
-operational reporting and business decision-making",
+      "Analyzed over 20,000 ride-booking records using SQL to evaluate booking trends, ride cancellations, payment methods, vehicle performance, and customer behavior",
+"Developed 9 DAX measures and KPI indicators that identified a 38% driver-side cancellation rate while revealing Cash and UPI accounted for nearly 96% of completed payments",
+"Designed a 5-page interactive Power BI dashboard featuring drill-through analysis, slicers, and dynamic visualizations to support operational reporting and business decision-making",
     ],
     shots: [{
 title:"Overview Dashboard",
