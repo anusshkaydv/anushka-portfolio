@@ -327,7 +327,7 @@ function Home({ goProjects, openProject }) {
       {/* HERO */}
       <section className="max-w-6xl mx-auto px-5 sm:px-8 pt-16 pb-20">
         <div
-          className="inline-flex items-center gap-2 px-3 py-1 rounded-full border mb-8 -rotate-1"
+          className="inline-flex items-center gap-2 px-3 py-1 rounded-full border mb-8"
           style={{ borderColor: C.lineStrong, fontFamily: "'JetBrains Mono', monospace" }}
         >
           <span className="w-1.5 h-1.5 rounded-full" style={{ background: C.teal }} />
