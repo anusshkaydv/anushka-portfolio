@@ -813,12 +813,32 @@ function ProjectDetail({ project, kind, goBack }) {
       </div>
 
       {project.shots && (
-        <div className="grid sm:grid-cols-2 gap-4 mb-10">
-          {project.shots.map((s) => (
-            <ImagePlaceholder key={s} label={s} />
-          ))}
+  <div className="grid sm:grid-cols-2 gap-6 mb-10">
+    {project.shots.map((s) => (
+      <div
+        key={s.title}
+        className="rounded-lg overflow-hidden border"
+        style={{
+          borderColor: C.line,
+          background: C.paperRaise,
+        }}
+      >
+        <img
+          src={s.image}
+          alt={s.title}
+          className="w-full aspect-video object-cover"
+        />
+
+        <div
+          className="p-3 text-sm font-medium"
+          style={{ color: C.ink }}
+        >
+          {s.title}
         </div>
-      )}
+      </div>
+    ))}
+  </div>
+)}
 
       {project.description && (
         <p className="text-base leading-relaxed mb-8" style={{ color: C.inkSoft }}>
