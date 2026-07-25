@@ -71,7 +71,49 @@ Returns analytics, enabling KPI monitoring and operational decision-making",
 "Integrated Azure Blob Storage into the data ingestion workflow, simulating a cloud-based reporting architecture from
 raw operational data to interactive dashboards",
     ],
-    shots: ["Home", "Executive Dashboard", "Finance Dashboard", "Customer Dashboard" , "Inventory Dashboard" , "Logistics Dashboard", "Returns Dashboard" ],
+    shots: [{
+title:"Home Dashboard",
+image:"/images/nexatech/Home Dashboard.png"
+},
+
+{
+title:"Executive Dashboard",
+image:"/images/nexatech/Executive Dashboard.png"
+},
+
+{
+title:"Finance Dashboard",
+image:"/images/nexatech/Finance Dashboard.png"
+},
+
+{
+title:"Customer Dashboard",
+image:"/images/nexatech/Customer Dashboard.png"
+},
+
+{
+title:"Inventory Dashboard",
+image:"/images/nexatech/Inventory Dashboard.png"
+},
+
+{
+title:"Logistics Dashboard",
+image:"/images/nexatech/Logistics Dashboard.png"
+},
+
+{
+title:"Returns Dashboard",
+image:"/images/nexatech/Returns Dashboard.png"
+}
+           {
+title:"Data_Loaded",
+image:"/images/nexatech/Data_Loaded.png.png"
+}
+            {
+title:"A",
+image:"/images/nexatech/Returns Dashboard.png"
+}
+],
     github: "https://github.com/anusshkaydv/NexaTech-Order-to-Cash-Reporting-System",
   },
   {
