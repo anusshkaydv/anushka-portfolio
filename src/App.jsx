@@ -14,7 +14,8 @@ const SKILLS = [
   { group: "Business Intelligence", items: ["Power BI", "DAX", "Microsoft Excel", "Grafana"] },
   { group: "Cloud", items: ["Azure Blob Storage"] },
   { group: "Python Libraries", items: ["Pandas", "NumPy", "Faker", "SQLAlchemy"] },
-  { group: "Other", items: ["ETL", "Data Warehousing", "Star Schema", "Data Modeling", "Git", "Docker"] },
+  { group: "Data Analytics:", items: ["ETL", "Data Warehousing", "Star Schema Modeling", "Data Modeling", "Data Cleaning", "Exploratory Data Analysis"] },
+  { group: "Tools:", items: ["Git", "GitHub", "SQL Server Management Studio (SSMS)", "Docker", "Docker Compose", "VS Code", "Jupyter Notebook", "LaTeX"] },
 ];
 
 const CERTIFICATES = [
@@ -56,13 +57,21 @@ const FEATURED_PROJECTS = [
     description:
       "An end-to-end Order-to-Cash reporting solution built on Azure — from raw ERP transactions to executive dashboards. Covers data generation, ETL, cloud storage, relational modeling, and business intelligence reporting, modeling how a real enterprise converts operational data into decision-ready insight.",
     tech: ["Python", "SQL", "Azure Blob Storage", "Azure SQL Database", "Power BI", "ETL"],
-    highlights: [
-      "Generated 388,000+ realistic ERP records across a normalized 16-table schema",
-      "Built a modular Python ETL pipeline for validation, transformation & loading",
-      "Integrated Azure Blob Storage and Azure SQL Database into the pipeline",
-      "Developed 8 interactive Power BI dashboards — Executive, Sales, Finance, Customer, Inventory, Logistics, Returns",
+    highlights: [     
+"Designed and implemented an end-to-end Order-to-Cash (O2C) reporting solution that simulates enterprise ERP
+workflows, covering data generation, ETL, cloud storage, relational modeling, and business intelligence reporting",
+"Generated over 388,000 realistic ERP records using Python and Faker, modeling customers, orders, inventory, ship
+ments, invoices, payments, returns, and discounts with business-driven relationships",
+"Designed a scalable 16-table ERP relational schema in Azure SQL Database using normalized data modeling, primary
+and foreign key constraints, and referential integrity to support enterprise reporting workloads",
+"Build a modular ETL framework for data validation, transformation, logging, and automated quality reporting before
+loading data into the reporting database",
+"Developed 8 interactive Power BI dashboards covering Home, Executive, Sales, Finance, Customer, Inventory, Logistics, and
+Returns analytics, enabling KPI monitoring and operational decision-making",
+"Integrated Azure Blob Storage into the data ingestion workflow, simulating a cloud-based reporting architecture from
+raw operational data to interactive dashboards",
     ],
-    shots: ["Home", "Executive Dashboard", "Finance Dashboard", "Customer Dashboard"],
+    shots: ["Home", "Executive Dashboard", "Finance Dashboard", "Customer Dashboard" , "Inventory Dashboard" , "Logistics Dashboard", "Returns Dashboard" ],
     github: "https://github.com/anusshkaydv/NexaTech-Order-to-Cash-Reporting-System",
   },
   {
@@ -74,12 +83,12 @@ const FEATURED_PROJECTS = [
       "A retail analytics platform processing transactions across customers, products, and stores — built on a Star Schema warehouse and analyzed with advanced SQL to surface regional performance, customer segments, and margin trends.",
     tech: ["Python", "PostgreSQL", "SQL", "Power BI", "Grafana", "Docker"],
     highlights: [
-      "Processed 10,000+ transactions across 500 customers, 200 products, 10 stores",
-      "20+ SQL queries using CTEs, window functions, and RFM segmentation",
-      "West region identified as the top contributor — 30% of $2.45M revenue",
-      "Power BI & Grafana dashboards tracking a 40% profit margin",
-    ],
-    shots: ["Executive Dashboard", "Sales Analytics", "Grafana Monitoring"],
+       "Designed an end-to-end retail analytics platform using Python ETL pipelines, PostgreSQL data warehousing, and Star Schema modeling to process 10,000+ transactions across 500 customers, 200 products, and 10 stores",
+"Developed analytical SQL queries using CTEs, window functions, joins, and RFM segmentation to evaluate customer behavior,sales performance, and regional revenue trends",
+"Identified high-value customer segments and regional sales patterns, revealing the West region as the highest revenue contributor with approximately 30% of total sales",
+"Built interactive Power BI and Grafana dashboards to monitor revenue, profit margin, sales trends, customer segmentation, inventory performance, and executive KPIs through dynamic visualizations",
+         ],
+    shots: ["Executive Dashboard", "Grafana Monitoring"],
     github: "https://github.com/anusshkaydv/Retail-Intelligence-Analytics-Platform",
   },
   {
@@ -91,12 +100,16 @@ const FEATURED_PROJECTS = [
       "An automated financial reporting workflow — a Python script pulls live prices from the Alpha Vantage API, Power Query cleans and loads the data inside Excel, and a single VBA-triggered macro refreshes every Pivot Table, chart, and KPI card in one click.",
     tech: ["Python", "Advanced Excel", "Power Query", "VBA", "Alpha Vantage API"],
     highlights: [
-      "Live API integration — no manual data entry",
-      "One-click VBA + Power Query refresh pipeline",
-      "Interactive dashboard: PivotTables, PivotCharts, slicers, KPI cards, conditional formatting",
-      "Tracks price trends, trading volume, and top gainers/losers",
+     "Automated real-time stock market data collection using Python and the Alpha Vantage API, generating structured datasets
+for financial reporting and analysis",
+"Developed an automated reporting pipeline using Power Query and VBA macros, enabling one-click data refresh and dashboard
+updates with minimal manual effort",
+"Built an interactive Microsoft Excel dashboard featuring PivotTables, PivotCharts, slicers, KPI cards, conditional formatting,
+and advanced formulas for dynamic financial reporting",
+"Analyzed stock price movements, trading volume, market trends, and top gainers/losers through interactive visualizations to
+support data-driven investment analysis",
     ],
-    shots: ["Live Dashboard", "KPI Cards & Charts"],
+    shots: ["Live Dashboard"],
     github: "https://github.com/anusshkaydv/Real-Time-Stock-Market-Dashboard",
   },
   {
@@ -108,29 +121,31 @@ const FEATURED_PROJECTS = [
       "A SQL and Power BI deep-dive into ride-booking behavior — uncovering where cancellations actually come from, how payment methods split, and which vehicle types drive revenue, across a 5-page interactive dashboard.",
     tech: ["SQL", "Power BI", "DAX", "Excel"],
     highlights: [
-      "Analyzed 20,000+ ride-booking records via SQL",
-      "Uncovered a 38% driver-side cancellation rate",
-      "9 DAX measures & KPIs — Cash + UPI ≈ 96% of completed payments",
-      "5-page dashboard with drill-through analysis and slicers",
+      "Analyzed over 20,000 ride-booking records using SQL to evaluate booking trends, ride cancellations, payment methods, vehicle
+performance, and customer behavior",
+"Developed 9 DAX measures and KPI indicators that identified a 38% driver-side cancellation rate while revealing Cash and
+UPI accounted for nearly 96% of completed payments",
+"Designed a 5-page interactive Power BI dashboard featuring drill-through analysis, slicers, and dynamic visualizations to support
+operational reporting and business decision-making",
     ],
-    shots: ["Overview Dashboard", "Vehicle Analysis", "Cancellation Analysis"],
+    shots: ["Overview", "Vehicle Type", "Revenue", "Cancellation", "Ratings"],
     github: "https://github.com/anusshkaydv/Ola-Ride-Analytics-Dashboard",
   },
 ];
 
 const ANALYTICS_PROJECTS = [
-  { id: "mobile-sales", name: "Mobile Sales Dashboard", tagline: "Brand & model-level sales performance across cities.", tech: ["Power BI", "DAX", "Excel"], github: "https://github.com/anusshkaydv" },
-  { id: "shopping-behaviour", name: "Customer Shopping Behaviour Analysis", tagline: "Segmenting spend, discount sensitivity, and subscription behavior.", tech: ["Python", "SQL", "PostgreSQL", "Power BI"], github: "https://github.com/anusshkaydv" },
-  { id: "call-center", name: "Call Center Performance Dashboard", tagline: "Agent performance, call volume, and resolution-time tracking.", tech: ["Power BI", "Excel"], github: "https://github.com/anusshkaydv" },
+  { id: "mobile-sales", name: "Mobile Sales Analysis Dashboard", tagline: "Brand & model-level sales performance across cities.", tech: ["Power BI", "DAX", "Excel"], github: "https://github.com/anusshkaydv/Mobile-Sales-Analysis-Dashboard-.git" },
+  { id: "shopping-behaviour", name: "Customer Shopping Behaviour Analysis", tagline: "Segmenting spend, discount sensitivity, and subscription behavior.", tech: ["Python", "SQL", "PostgreSQL", "Power BI"], github: "https://github.com/anusshkaydv/customer-shopping-behavior-analysis.git" },
+  { id: "call-center", name: "Call Center Performance Dashboard", tagline: "Agent performance, call volume, and resolution-time tracking.", tech: ["Power BI", "Excel"], github: "https://github.com/anusshkaydv/call-center-dashboard-excel.git" },
 ];
 
 const OTHER_PROJECTS = [
-  { id: "hospital", name: "Hospital Management System", tagline: "Patient records, appointments, and admin workflow.", github: "https://github.com/anusshkaydv" },
-  { id: "employee", name: "Employee Management System", tagline: "Employee records and department administration.", github: "https://github.com/anusshkaydv" },
-  { id: "chatbot", name: "AI Chatbot", tagline: "Conversational assistant built as a standalone app.", github: "https://github.com/anusshkaydv" },
-  { id: "netflix-clone", name: "Netflix Clone", tagline: "Front-end recreation of a streaming platform UI.", github: "https://github.com/anusshkaydv" },
-  { id: "product-website", name: "Product Website", tagline: "Marketing site for a product concept.", github: "https://github.com/anusshkaydv" },
-  { id: "expense-tracker", name: "Expense Tracker", tagline: "Personal finance tracking application.", github: "https://github.com/anusshkaydv" },
+  { id: "hospital", name: "Hospital Management System", tagline: "Patient records, appointments, and admin workflow.", github: "https://github.com/anusshkaydv/Hospital-Management-System.git" },
+  { id: "employee", name: "Employee Management System", tagline: "Employee records and department administration.", github: "https://github.com/anusshkaydv/MERN-Stack-Employee-Management-System.git" },
+  { id: "chatbot", name: "AI Chatbot", tagline: "Conversational assistant built as a standalone app.", github: "https://github.com/anusshkaydv/AI-ChatBot.git },
+  { id: "netflix-clone", name: "Netflix Clone", tagline: "Front-end recreation of a streaming platform UI.", github: "https://github.com/anusshkaydv/Netflixclone.git" },
+  { id: "product-website", name: "Product Website", tagline: "Marketing site for a product concept.", github: "https://github.com/anusshkaydv/productwebsite.git" },
+  { id: "expense-tracker", name: "Expense Tracker", tagline: "Personal finance tracking application.", github: "https://github.com/anusshkaydv/Expense-Tracker.git" },
 ];
 
 /* ============================================================
