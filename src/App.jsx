@@ -135,7 +135,7 @@ image:"/images/retail/GRAFANA_DASHBOARD.png"
 },
 
 {
-title:ER DIAGRAM",
+title:"ER DIAGRAM",
 image:"/images/retail/ER_DIAGRAM.png"
 },
 
