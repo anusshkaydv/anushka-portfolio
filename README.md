@@ -14,7 +14,7 @@ The portfolio is designed as a digital resume where recruiters can explore detai
 
 # 📸 Portfolio Preview
 
-> Replace these images after taking screenshots of your portfolio.
+
 
 ![Home](public/images/portfolio/home.png)
 
