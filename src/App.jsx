@@ -218,7 +218,7 @@ const ANALYTICS_PROJECTS = [
 const OTHER_PROJECTS = [
   { id: "hospital", name: "Hospital Management System", tagline: "Patient records, appointments, and admin workflow.", github: "https://github.com/anusshkaydv/Hospital-Management-System.git" },
   { id: "employee", name: "Employee Management System", tagline: "Employee records and department administration.", github: "https://github.com/anusshkaydv/MERN-Stack-Employee-Management-System.git" },
-  { id: "chatbot", name: "AI Chatbot", tagline: "Conversational assistant built as a standalone app.", github: "https://github.com/anusshkaydv/AI-ChatBot.git },
+  { id: "chatbot", name: "AI Chatbot", tagline: "Conversational assistant built as a standalone app.", github: "https://github.com/anusshkaydv/AI-ChatBot.git" },
   { id: "netflix-clone", name: "Netflix Clone", tagline: "Front-end recreation of a streaming platform UI.", github: "https://github.com/anusshkaydv/Netflixclone.git" },
   { id: "product-website", name: "Product Website", tagline: "Marketing site for a product concept.", github: "https://github.com/anusshkaydv/productwebsite.git" },
   { id: "expense-tracker", name: "Expense Tracker", tagline: "Personal finance tracking application.", github: "https://github.com/anusshkaydv/Expense-Tracker.git" },
