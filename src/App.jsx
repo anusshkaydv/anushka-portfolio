@@ -104,11 +104,11 @@ image:"/images/nexatech/Logistics Dashboard.png"
 {
 title:"Returns Dashboard",
 image:"/images/nexatech/Returns Dashboard.png"
-}
+},
            {
 title:"Azure Data Loaded",
 image:"/images/nexatech/Data_Loaded.png.png"
-}
+},
             {
 title:"Schema",
 image:"/images/nexatech/powerbi_schema.png"
@@ -130,7 +130,25 @@ image:"/images/nexatech/powerbi_schema.png"
 "Identified high-value customer segments and regional sales patterns, revealing the West region as the highest revenue contributor with approximately 30% of total sales",
 "Built interactive Power BI and Grafana dashboards to monitor revenue, profit margin, sales trends, customer segmentation, inventory performance, and executive KPIs through dynamic visualizations",
          ],
-    shots: ["Executive Dashboard", "Grafana Monitoring"],
+    shots: [{
+title:"Power BI Dashboard",
+image:"/images/retail/RETAIL_ANALYTICS_POWERBI.png"
+},
+
+{
+title:"Grafana Monitoring",
+image:"/images/retail/GRAFANA_DASHBOARD.png"
+},
+
+{
+title:ER DIAGRAM",
+image:"/images/retail/ER_DIAGRAM.png"
+},
+
+{
+title:"Style Dashboard",
+image:"/images/retail/powerbi_style_dashboard.png"
+}],
     github: "https://github.com/anusshkaydv/Retail-Intelligence-Analytics-Platform",
   },
   {
@@ -151,7 +169,15 @@ and advanced formulas for dynamic financial reporting",
 "Analyzed stock price movements, trading volume, market trends, and top gainers/losers through interactive visualizations to
 support data-driven investment analysis",
     ],
-    shots: ["Live Dashboard"],
+    shots: [{
+title:"Dashboard",
+image:"/images/real_time/real_time.png"
+},
+
+{
+title:"Updated Dashboard",
+image:"/images/real_time/updated.png"
+}],
     github: "https://github.com/anusshkaydv/Real-Time-Stock-Market-Dashboard",
   },
   {
@@ -170,7 +196,28 @@ UPI accounted for nearly 96% of completed payments",
 "Designed a 5-page interactive Power BI dashboard featuring drill-through analysis, slicers, and dynamic visualizations to support
 operational reporting and business decision-making",
     ],
-    shots: ["Overview", "Vehicle Type", "Revenue", "Cancellation", "Ratings"],
+    shots: [{
+title:"Overview Dashboard",
+image:"/images/ola/overview.png"
+},
+
+{
+title:"Vechile Type Dashboard",
+image:"/images/ola/vechile_type.png"
+},
+
+{
+title:"Revenue Dashboard",
+image:"/images/ola/revenue.png"
+},
+           {
+title:"Cancellation Dashboard",
+image:"/images/ola/cancellation.png"
+},
+            {
+title:"Rating Dashboard",
+image:"/images/ola/ratings.png"
+}],
     github: "https://github.com/anusshkaydv/Ola-Ride-Analytics-Dashboard",
   },
 ];
