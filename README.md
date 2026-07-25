@@ -8,7 +8,7 @@ The portfolio is designed as a digital resume where recruiters can explore detai
 
 ## 🚀 Live Website
 
-🔗 https://vercel.com/portfolio-5fe6/anushka-yadav-portfolio
+🔗 https://anushka-yadav-portfolio-delta.vercel.app/
 
 ---
 
